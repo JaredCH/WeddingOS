@@ -207,9 +207,30 @@ ollama_enabled = true
 
 STEP 5 — INGEST INITIAL DATA
 
-Populate tasks.json with the following entries exactly:
+Populate tasks.json with the following entries, please clean up the information, do not forget anything.:
 
-[INSERT ALL PROVIDED TASK TABLE DATA AS STRUCTURED JSON RECORDS]
+**Immediate (Feb/Mar 2026)**	Budget & Planning	Refine detailed budget breakdown	TRUE	High	$3,500 Total	Allocate funds across remaining categories (e.g., dress, catering, photographer). $3,000 base budget, $500 max overage.	N/A																		
+**Immediate (Feb/Mar 2026)**	Vendor Booking	Hire Photographer & Videographer	FALSE	High	$800	Research portfolios, check availability for Oct 10th, and secure with a deposit.	[URL]																		
+**Immediate (Feb/Mar 2026)**	Attire	Start Wedding Dress Shopping/Ordering	FALSE	High	$600	Allow 6-9 months for production and 2 months for alterations.	[URL]																		
+**Immediate (Feb/Mar 2026)**	Vendor Booking	Book Caterer/Finalize Menu	FALSE	High	$750	Since the venue is booked, confirm if catering is included or if an outside vendor is needed. Schedule tasting.	[URL]																		
+**Immediate (Mar 2026)**	Vendor Booking	Book Officiant	FALSE	Medium	$100	Need to take a picture and then print/mail them.	Local Court/Clergy																		
+**6-7 Months Out (Mar/Apr 2026)**	Guest Management	Send Save-the-Dates	FALSE	High	$0	Take pictures	N/A																		
+**6-7 Months Out (Mar/Apr 2026)**	Attire	Select Wedding Party Attire	FALSE	High	$300	Choose colors/styles for bridesmaids/groomsmen. Give them ordering deadlines.	Various Stores																		
+**6 Months Out (Apr 2026)**	Registry & Website	Complete Wedding Registry	FALSE	Medium	$0	Register at 1-2 major retailers or online platforms.	Zola/Amazon																		
+**6 Months Out (Apr 2026)**	Stationery	**Order Formal Invitations**	FALSE	High	$250	**ACCELERATED: Order invitations, RSVP cards, and envelopes immediately. Need printing/delivery time by early May.**	[URL]																		
+**5 Months Out (Early May 2026)**	Stationery	**Mail Formal Wedding Invitations**	FALSE	High	$50	**ACCELERATED: Mail invitations 5 months before the wedding to allow maximum travel notice.** RSVP due date should be early September.	Post Office																		
+**4-5 Months Out (May/Jun 2026)**	Vendor Booking	Book DJ/Band/Entertainment	FALSE	Medium	$300	Discuss song lists (must-plays/do-not-plays) for ceremony and reception.	[URL]																		
+**4 Months Out (Jun 2026)**	Ceremony	Meet with Officiant	FALSE	Medium	$0	Discuss ceremony flow, readings, and vow structure.	Officiant Name																		
+**3 Months Out (Jul 2026)**	Vendor Booking	Order Wedding Cake/Dessert	FALSE	Medium	$150	Schedule a tasting and finalize the design.	Local Bakery																		
+**3 Months Out (Jul 2026)**	Guest Management	Arrange Hotel Room Blocks	FALSE	Medium	$0	Reserve blocks of rooms for out-of-town guests at a negotiated rate.	Local Hotels																		
+**8 Weeks Out (Aug 2026)**	Attire	Schedule First Dress Alteration	FALSE	High	$50	Bring wedding shoes and necessary undergarments.	Seamstress																		
+**6 Weeks Out (Late Aug 2026)**	Logistics	Plan Bar/Beverages	FALSE	Medium	$150	Finalize drink menu and alcohol purchasing/delivery logistics (if not handled by caterer).	Caterer/Vendor																		
+**4 Weeks Out (Sep 2026)**	Logistics	Obtain Marriage License	FALSE	High	$50	Research local county/state requirements (usually valid for a limited time).	Probate Court																		
+**2 Weeks Out (Late Sep 2026)**	Guest Management	Finalize Seating Chart & Headcount	FALSE	High	$0	Call any guests who have not responded. Provide final count to caterer/venue.	N/A																		
+**1 Week Out (Early Oct 2026)**	Final Details	Final Vendor Confirmations	FALSE	High	$0	Confirm arrival times, final payments, and timelines with all vendors.	All Vendors																		
+**Day Before (Oct 9th)**	Ceremony	Wedding Rehearsal & Dinner	FALSE	Medium	$0	Run through the ceremony; enjoy the rehearsal dinner.	Venue/Dinner Location																		
+**Day Before (Oct 9th)**	Final Details	Prepare Vendor Tips & Final Payments	FALSE	High	$0	Put cash/checks in labeled envelopes to be distributed by a designated person.	N/A																		
+																									
 
 Convert TRUE/FALSE into boolean values.
 
